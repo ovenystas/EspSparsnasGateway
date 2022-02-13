@@ -1,3 +1,6 @@
+#ifndef RFM69REGISTERS_H
+#define RFM69REGISTERS_H
+
 // **********************************************************************************
 // Registers used in driver definition for HopeRF RFM69W/RFM69HW, Semtech SX1231/1231H
 // **********************************************************************************
@@ -1107,3 +1110,5 @@
 #define RF_DAGC_NORMAL              0x00  // Reset value
 #define RF_DAGC_IMPROVED_LOWBETA1   0x20
 #define RF_DAGC_IMPROVED_LOWBETA0   0x30  // Recommended default
+
+#endif // RFM69REGISTERS_H
